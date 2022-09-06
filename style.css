@@ -3,3 +3,79 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    font-family:'Montserrat', sans-serif;
+}
+.main{
+    height: 100vh;
+    width: 200vh;
+    border: 2px solid red
+}
+.mid{
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+    padding: 2rem;
+}
+.header{
+    text-align: center;
+    margin-top: 3rem;
+}
+.leftside{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    /* border: 2px solid red; */
+}
+.Contact h2{
+    margin-bottom: 1rem;
+}
+.form-gr{
+    width: 100%;
+    margin-top: 1rem;
+    /* border: 1px solid red; */
+}
+.input{
+    position: relative;
+}
+.input i{
+    position: absolute;
+    left: 10px;
+    top: 8px;
+
+
+}
+.input input{
+    border-radius: 5px;
+    width: 55vh;
+    height: 3vh;
+    border: 1px solid gray;
+    padding: 1rem;
+    padding-left: 33px;
+    color: #828282;
+    font-size: 1rem;
+}
+
+.side-by-side{
+    display: flex;
+    justify-content: space-between;
+    gap: 0.7rem;
+}
+.side-by-side .country{
+    width: 14vh;
+}
+.input select{
+    border: 1px solid gray;
+    color: #828282;
+    border-radius: 0.4rem;
+    padding: 0.4rem 0.4rem 0.5rem 1.4rem;
+    padding-left: 28px;
+    font-size: 1rem;
+}
+.postcode input{
+    width: 35vh;
+}
+.button{
+    display: flex;
+    justify-content:flex-end;
+}
