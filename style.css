@@ -9,7 +9,7 @@ body{
 .main{
     height: 100vh;
     width: 200vh;
-    border: 2px solid red
+    /* border: 2px solid red */
 }
 .mid{
     display: flex;
@@ -42,6 +42,8 @@ body{
     position: absolute;
     left: 10px;
     top: 8px;
+    color: #828282;
+
 
 
 }
@@ -59,7 +61,7 @@ body{
 .side-by-side{
     display: flex;
     justify-content: space-between;
-    gap: 0.7rem;
+    gap: 1rem;
 }
 .side-by-side .country{
     width: 14vh;
@@ -78,4 +80,92 @@ body{
 .button{
     display: flex;
     justify-content:flex-end;
+    
 }
+.button button{
+    padding: 1rem 2rem;
+    width: 20vh;
+    text-align: center;
+    border-radius: 15px;
+    border: 1px solid gray;
+    background-color: orange;
+    cursor: pointer;
+    color: white;
+}
+.button button:hover{
+   background-color: rgba(0,0,0,0.55);
+   transition: all 0.5s;
+}
+img{
+    width: 130px;
+    border-radius: 20px;
+}
+.rightside{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    /* border: 1px solid red; */
+    width: auto;
+    height: 30%;
+    background-color: #eeeeee;
+    padding: 2rem;
+    border-radius: 1rem;
+}
+
+.img1{
+    display: flex;
+    padding-bottom: 1rem;
+}
+.item.img1.price{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.img2{
+    display: flex
+}
+.item h2{
+    font-size: 1rem;
+    padding-left: 0.5rem;
+}
+.orange{
+    color: orange;
+    font-size: 1.5rem;
+    padding-left: 0.5rem;
+    font-weight: 600;
+}
+.overline{
+    text-decoration:line-through;
+    padding-left: 0.5rem;
+}
+.total-price{
+    border-top: 1px solid gray;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 1rem;
+}
+
+
+.item button{
+    padding: 0rem 0.3rem;
+    background-color: rgb(209, 207, 207);
+    border-radius: 2px;
+    cursor: pointer;
+    border: none;
+}
+.item button:hover{
+    background-color: gray;
+}
+.item .counter{
+    border: 1px solid gray;
+    display: flex;
+    width: 12vh;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    justify-content: space-between;
+    margin-top: 1.5rem;
+    margin-left: 5px;
+}
+
+
+
